@@ -1,0 +1,26 @@
+{
+    "name": "magento/module-media-lounge-disabled-product-redirect",
+    "description": "Magento2 extension for redirect of disabled product page",
+    "config": {
+    },
+    "require": {
+        "php": "~7.1.3||~7.2.0||~7.3.0",
+        "lib-libxml": "*",
+        "magento/framework": "102.0.*",
+        "magento/module-catalog": "103.0.*",
+        "magento/module-config": "101.1.*"
+    },
+    "type": "magento2-module",
+    "license": [
+        "GPL-2.0",
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magento\\MediaLounge\\DisabledProductsRedirect\\": ""
+        }
+    },
+    "version": "1.0.0"
+}
